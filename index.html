@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="LUMS Religious Society">
 <meta property="og:title" content="Jubba Sign-up · LUMS Religious Society">
-<meta property="og:description" content="Navy blue jubba for ADs and Directors. Sign up and upload your down-payment proof.">
+<meta property="og:description" content="Navy blue jubba for ADs, Directors, Event Heads and EC. Sign up and upload your down-payment proof.">
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A3A2A'/%3E%3Cg fill='none' stroke='%23E5CB93' stroke-width='1.6'%3E%3Crect x='9' y='9' width='14' height='14'/%3E%3Crect x='9' y='9' width='14' height='14' transform='rotate(45 16 16)'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -726,6 +726,8 @@ select:focus{outline:none;border-color:var(--deep);background-color:#fff;box-sha
               <option>Design</option>
               <option>Marketing</option>
               <option>Research &amp; Publications</option>
+              <option>Events</option>
+              <option>Executive Council (EC)</option>
             </select>
             <span class="err">Please select your department.</span>
           </div>
@@ -736,6 +738,8 @@ select:focus{outline:none;border-color:var(--deep);background-color:#fff;box-sha
           <div class="chips" role="radiogroup" aria-label="Position">
             <label class="chip"><input type="radio" name="position" value="AD" required><span>AD</span></label>
             <label class="chip"><input type="radio" name="position" value="Director"><span>Director</span></label>
+            <label class="chip"><input type="radio" name="position" value="Event Head"><span>Event Head</span></label>
+            <label class="chip"><input type="radio" name="position" value="EC"><span>EC</span></label>
           </div>
           <span class="err">Please pick one.</span>
         </div>
@@ -846,7 +850,7 @@ select:focus{outline:none;border-color:var(--deep);background-color:#fff;box-sha
    SETTINGS: paste your Apps Script Web App URL (ends in /exec).
    ═══════════════════════════════════════════════════════════════════ */
 const CONFIG = {
-  endpoint: 'https://script.google.com/macros/s/AKfycbxp8JFD0KTjX6Q9fMycY3VosZVT5B__Pb6bQCkBY6vGapUKD0gjGG1ohHMPT7s-RMegVw/exec',
+  endpoint: 'https://script.google.com/macros/s/AKfycbx5uElEFXy0kFLmvbgmFUqHCDn2FJREbQ-Io0DCXZ2ETkgZF4SM-ScIboB_45nCB8TaIw/exec',
   item: 'Navy blue jubba',
   downPayment: 3000,
   maxImageSide: 1600,        // proof is shrunk to this many px on its longest side
